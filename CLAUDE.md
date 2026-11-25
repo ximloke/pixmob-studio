@@ -39,6 +39,13 @@
   - 旧的 `https://pizmob-control.netlify.app` 停在旧版。本地仍可独立运行。
   - 节目、颜色和提前量存在各网址自己的浏览器存储里，**不会随项目文件夹或换网址迁移**。新网址开始是空的，节目通过导出／导入转移。
 - **上游 issue（2026-11-25）**：用户让把 IR+RF 结果分享到 RF 编码器的来源项目，已用用户的 GitHub 账号发了 [sueppchen/PixMob_waveband#10](https://github.com/sueppchen/PixMob_waveband/issues/10)。内容经用户确认，写了 922.36 MHz、唤醒、IR+RF 时间和 CRC 核对，不含名字、邮箱和国家。还没有回复；没有提 PR。
+- **GitHub 仓库与 Pages（2026-11-25，用户选“公开+Pages”）**：
+  - 公开仓库 [ximloke/pixmob-studio](https://github.com/ximloke/pixmob-studio)，分支 `main`，第一次提交 `658dc20`。
+  - 本仓库的提交作者设为 GitHub 用户名和 noreply 邮箱，只写在本仓库的 git 配置里，不暴露 Gmail 和真名。
+  - `.github/workflows/pages.yml`：每次 push 到 main 都自动构建（base `/pixmob-studio/`），并发布到 **https://ximloke.github.io/pixmob-studio/**。
+  - 11-25 首次部署通过，页面无报错，内容含 11-23 加的 Song shows Cue pads。
+  - Cloudflare 那份还是 11-21 的版本，没有 Cue pads；要一致，需再用 wrangler 发布。
+  - 两个地址的浏览器存储互不相通。
 
 ## 必须保留的边界
 
@@ -50,7 +57,10 @@
   - 频率只限 433.10–434.70 MHz 和 919.10–922.90 MHz，最高 10 dBm（`firmware/PixMobRFTest/PixMobRFLimits.h`，有测试）。要用其他频段，先确认马来西亚的使用规定并经用户同意。
   - MCMC 2025 年第 1 号类别指配允许 919–923 MHz SRD 最高 500 mW EIRP，无占空比条件。同一文件要求设备经认证，这对 433 MHz 也一样，自制板未认证；用户知情后同意了 922 MHz 测试。
   - 正式固件自 11-21 起发 RF，只发灯光帧和“nothing”帧（mode 0、group 0），固定 922.36 MHz、10 dBm；绝不发设置／EEPROM 帧。
-- Git 几乎整个项目仍是 untracked，都是已有成果；不要清理或重置。`.arduino/` 内有重要原始构建、备份和诊断资料，不能清空或公开上传。
+- Git：11-25 起项目已提交并推送到**公开**仓库（见上方 GitHub 条），不要清理、重置或改写历史。
+  - `.arduino/` 已被 `.gitignore` 排除，里面有重要的原始构建、备份和诊断资料，不能清空，也不能公开上传。
+  - 用户的音乐、录像和任何账户信息也不能提交。
+  - 只在用户要求时提交和推送。
 - 网页和上传工具不能同时占用串口；需要硬件操作时先确认现场状态并保留恢复点。
 
-2026-11-21：**184 项测试通过**（含 IR/RF 输出选择、彩虹 RF 保持和 RF 睡眠设置的测试），`npm run build` 通过。完整操作记录和构建哈希见交接资料与验证记录。
+2026-11-25：**187 项测试通过**（含 IR/RF 输出选择、彩虹 RF 保持、RF 睡眠设置，以及 11-23 新增的 Song shows Cue pads 测试），`npm run build` 通过。完整操作记录和构建哈希见交接资料与验证记录。

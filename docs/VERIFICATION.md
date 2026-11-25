@@ -1147,3 +1147,30 @@ Lights 3–7 are the same within one frame. Light 8 is cut off by the end of the
 **Personal details:** no name, email or country. The post only says 922 MHz is licence-free "where I am".
 
 **Not done:** no pull request; no replies yet.
+
+## 2026-11-25 — Public GitHub repository and GitHub Pages
+
+**Request:** "https://pizmob-control.pages.dev/ 能放进我的github吗". I offered a private repository (recommended) or a public one served by GitHub Pages; the user chose "公开+Pages".
+
+**Before publishing:**
+- The 120 files Git would add (about 21 MB) were scanned. They hold no tokens or passwords, and no name or email of the user. `.gitignore` already keeps out `.arduino/`, `node_modules/`, `dist/` and `firmware/PixMobStudio/secrets.h`.
+- Since the Cloudflare deploy (21 November, 23:55), another session had added the Song shows Cue pads on 23 November: `src/lib/cuePads.ts`, `SongShows.tsx`, `songShows.css`, `tests/cuePads.test.ts` and the README.
+- `npm test`: 187 pass, 0 fail. The production build passed.
+- The commit author is set for this repository only (`git config --local`): `ximloke` with GitHub's noreply address, so the Gmail address and real name are not published.
+
+**Published:**
+- `gh repo create ximloke/pixmob-studio --public`, then GitHub Pages turned on with build type "workflow".
+- First commit `658dc20` on `main` (the unborn `master` branch was renamed), pushed to `origin`.
+- `.github/workflows/pages.yml` runs Node 22, `npm ci`, `tsc -b` and `vite build --base=/pixmob-studio/`, then uploads and deploys.
+  - Actions used: checkout v7, setup-node v7, configure-pages v6, upload-pages-artifact v5 and deploy-pages v5. Each was released at least six weeks before.
+
+**Check:**
+- Run 45565071823: build and deploy passed.
+- https://ximloke.github.io/pixmob-studio/ answers HTTP 200, and its script and stylesheet load from `/pixmob-studio/assets/`.
+- The served script is byte-identical to a local build with the same base. It contains "Wristbands sleep", "Lights go out by" and "Cue pads".
+- In the in-app browser the page rendered with no console errors, in a secure context, with `navigator.serial` present. The board was not connected there.
+
+**Notes:**
+- The Cloudflare copy is still the 21 November build, without Cue pads.
+- Each address keeps its own browser storage.
+- Every push to `main` redeploys the GitHub Pages site. These notes and the README went out as a second commit.

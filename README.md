@@ -4,9 +4,15 @@ A local React + TypeScript lighting console with a working wristband simulator, 
 
 Continuing this existing project with Claude: read [CLAUDE.md](CLAUDE.md) and the [current handoff](docs/CLAUDE_HANDOFF.md), including installed firmware, preserved wiring, backups and unresolved issues.
 
-**Current setup, 15 November 2026:** the last verified board application is `beat-effects-build`, restored at the user's request. The firmware source still contains the newer breathing and idle-rainbow changes; rebuilding it does not reproduce the installed application. White, custom colors, timed lights, fades and strobes have user observations; rainbow dark intervals remain unresolved even after the rollback. The handoff consolidates the current state where the historical sections below refer to earlier builds or preview-only limitations. This reread passed all 176 tests and the production build without operating hardware or deploying.
+**Live:** [ximloke.github.io/pixmob-studio](https://ximloke.github.io/pixmob-studio/) (GitHub Pages, rebuilt from `main` on every push) and [pizmob-control.pages.dev](https://pizmob-control.pages.dev/) (Cloudflare Pages, deployed by hand, so it can lag behind). Open either one in desktop Chrome to connect the ESP32 over Web Serial. Shows, colours and lead time are stored separately for each address in the browser, so move shows with Export / Import.
 
-**Start with the simulator. No hardware, account, cloud service, or protocol data is needed.** Artist profiles affect the virtual wristband only. Hardware color/effect encoding and wristband compatibility are unverified.
+**Current setup, 25 November 2026:** the board runs `beat-rf-flash-build`, built from the current source in `firmware/PixMobBeatController/`.
+- Every light goes out by IR and, through a CC1101, as a PixMob RF frame at 922.36 MHz and 10 dBm. IR only or RF only can be chosen instead.
+- 187 tests and the production build pass.
+- The controller transmits only at 922.36 MHz and at no more than 10 dBm. The bench sketch is limited to 433.10–434.70 and 919.10–922.90 MHz.
+- The home-built board is not certified. Check your local radio rules before transmitting.
+
+**Start with the simulator. No hardware, account, cloud service, or protocol data is needed.** Artist profiles affect the virtual wristband only. Hardware control has been checked by eye on one band model only (PixMob Wave2 Gen 3, IR and 922 MHz RF); see [VERIFICATION.md](docs/VERIFICATION.md).
 
 ## Run locally
 
