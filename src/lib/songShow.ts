@@ -169,7 +169,7 @@ export function clampHardwareLead(value: unknown): number {
   if (!Number.isFinite(number)) return DEFAULT_HARDWARE_LEAD_MS;
   return Math.round(Math.max(0, Math.min(MAX_HARDWARE_LEAD_MS, number)));
 }
-const MAX_SHOWS = 16;
+export const MAX_SONG_SHOWS = 16;
 const MAX_STORAGE_LENGTH = 1_000_000;
 const identifier = (value: unknown): value is string =>
   typeof value === "string" && /^[a-zA-Z0-9_-]{1,80}$/.test(value);
@@ -217,6 +217,22 @@ export function validSongShow(value: unknown): value is SongShow {
 
 export function sortedSongCues(show: SongShow): SongCue[] {
   return [...show.cues].sort((a, b) => a.time - b.time);
+}
+
+/**
+ * The wristband profile most of a show's cues use (on a tie, the one used
+ * first); undefined for a show without cues.
+ */
+export function mainSongProfile(
+  show: SongShow,
+): Lighting["profile"] | undefined {
+  const counts = new Map<Lighting["profile"], number>();
+  for (const { lighting } of show.cues)
+    counts.set(lighting.profile, (counts.get(lighting.profile) ?? 0) + 1);
+  let main: Lighting["profile"] | undefined;
+  for (const [profile, count] of counts)
+    if (main === undefined || count > (counts.get(main) ?? 0)) main = profile;
+  return main;
 }
 
 export function songCueAt(show: SongShow, time: number): SongCue | null {
@@ -378,7 +394,7 @@ export function readSongShows(storage: Pick<Storage, "getItem">): {
     const values: unknown = JSON.parse(raw);
     if (
       !Array.isArray(values) ||
-      values.length > MAX_SHOWS ||
+      values.length > MAX_SONG_SHOWS ||
       !values.every(validSongShow) ||
       new Set(values.map((show) => show.id)).size !== values.length
     )
@@ -401,12 +417,12 @@ export function saveSongShows(
 ): void {
   if (
     !Array.isArray(shows) ||
-    shows.length > MAX_SHOWS ||
+    shows.length > MAX_SONG_SHOWS ||
     !shows.every(validSongShow) ||
     new Set(shows.map((show) => show.id)).size !== shows.length
   )
     throw new Error(
-      `Use up to ${MAX_SHOWS} valid song shows with up to ${MAX_SONG_CUES} cues each.`,
+      `Use up to ${MAX_SONG_SHOWS} valid song shows with up to ${MAX_SONG_CUES} cues each.`,
     );
   const serialized = JSON.stringify(shows.map(cleanShow));
   if (serialized.length > MAX_STORAGE_LENGTH)

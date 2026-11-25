@@ -1,0 +1,3701 @@
+{
+  "format": "pixmob-song-show",
+  "version": 1,
+  "show": {
+    "id": "617960cf-dfba-49e8-ac7d-c577eba1f761",
+    "name": "blinding light (half version)",
+    "cues": [
+      {
+        "id": "006d527b-3895-4672-8133-03b8d37bbd44",
+        "time": 0.1,
+        "label": "Beat 29",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 2800,
+        "fadeInMs": 96,
+        "fadeOutMs": 96
+      },
+      {
+        "id": "15ba1f93-5db2-4d08-86b3-4c034df010f8",
+        "time": 2.87,
+        "label": "Cue 270",
+        "lighting": {
+          "color": "#12b24a",
+          "effect": "Flash",
+          "brightness": 80,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "G",
+        "pulseMs": 120,
+        "holdMs": 3100,
+        "fadeInMs": 192,
+        "fadeOutMs": 192
+      },
+      {
+        "id": "955e0636-e2bb-4463-beb2-f90e8bc8f7f9",
+        "time": 6,
+        "label": "Beat 31",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120,
+        "holdMs": 5350,
+        "strobe": "build"
+      },
+      {
+        "id": "4bb8be38-f2ca-4d4e-9a92-9a245d0c42e2",
+        "time": 11.353197278911564,
+        "label": "Beat 33",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "9e8a13ec-a64a-4144-a2a6-a6a085c961ef",
+        "time": 11.95,
+        "label": "Cue 270",
+        "lighting": {
+          "color": "#12b24a",
+          "effect": "Flash",
+          "brightness": 80,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "G",
+        "pulseMs": 120
+      },
+      {
+        "id": "c6c37dce-f845-4f1e-ade6-c29cf10af893",
+        "time": 12.052607709750568,
+        "label": "Beat 35",
+        "lighting": {
+          "color": "#4275ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120
+      },
+      {
+        "id": "5406f46e-fde8-47d2-b459-9971ec8357c7",
+        "time": 12.76498866213152,
+        "label": "Beat 37",
+        "lighting": {
+          "color": "#ffdc45",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "Y",
+        "pulseMs": 120
+      },
+      {
+        "id": "56179e7a-80d0-4004-a4a0-daf4b289e9c0",
+        "time": 13.463401360544218,
+        "label": "Beat 39",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120
+      },
+      {
+        "id": "2e5a841c-890a-4405-9e76-664706adf6f5",
+        "time": 14.168798185941043,
+        "label": "Beat 41",
+        "lighting": {
+          "color": "#6c73ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120,
+        "levels": [
+          68,
+          72,
+          160
+        ]
+      },
+      {
+        "id": "47f3604f-5981-4f40-9ce4-41d6f99b3587",
+        "time": 14.870204081632654,
+        "label": "Beat 43",
+        "lighting": {
+          "color": "#ff6caa",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          180,
+          76,
+          120
+        ]
+      },
+      {
+        "id": "61915a76-d156-4eec-8eb2-71c5c5d8d94d",
+        "time": 15.568616780045351,
+        "label": "Beat 45",
+        "lighting": {
+          "color": "#ff7c00",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          132,
+          64,
+          0
+        ]
+      },
+      {
+        "id": "430624d0-ba40-4a91-b9b5-b50382f6e641",
+        "time": 16.27401360544218,
+        "label": "Beat 47",
+        "lighting": {
+          "color": "#6c73ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120,
+        "levels": [
+          68,
+          72,
+          160
+        ]
+      },
+      {
+        "id": "6103c873-006f-4b41-ab2b-332f000870b8",
+        "time": 16.967437641723357,
+        "label": "Beat 49",
+        "lighting": {
+          "color": "#a6d2ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "C",
+        "pulseMs": 120,
+        "levels": [
+          104,
+          132,
+          160
+        ]
+      },
+      {
+        "id": "60680663-efda-4240-88dd-6de51aee9d9f",
+        "time": 17.68979591836735,
+        "label": "Beat 51",
+        "lighting": {
+          "color": "#ff13d9",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          160,
+          12,
+          136
+        ]
+      },
+      {
+        "id": "25949ce4-9de4-411c-b765-3994cd85fc91",
+        "time": 18.378231292517007,
+        "label": "Beat 53",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "29644c66-00a4-416b-b9a4-1517f0724b2b",
+        "time": 19.08063492063492,
+        "label": "Beat 55",
+        "lighting": {
+          "color": "#ff6caa",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          180,
+          76,
+          120
+        ]
+      },
+      {
+        "id": "6cf237a9-be09-4c57-a6c5-9b9d5612f992",
+        "time": 19.778049886621314,
+        "label": "Beat 57",
+        "lighting": {
+          "color": "#12b24a",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "G",
+        "pulseMs": 120
+      },
+      {
+        "id": "ad133b1f-6d84-4577-8350-4d79ce75291c",
+        "time": 20.47546485260771,
+        "label": "Beat 59",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          132,
+          64,
+          0
+        ]
+      },
+      {
+        "id": "499aecba-73f7-4187-9e73-b2921573cc7e",
+        "time": 21.18285714285714,
+        "label": "Beat 61",
+        "lighting": {
+          "color": "#4275ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120
+      },
+      {
+        "id": "e2bb8a31-f20e-4b01-8587-3ba1b39fedb6",
+        "time": 21.874285714285715,
+        "label": "Beat 63",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          68,
+          72,
+          160
+        ]
+      },
+      {
+        "id": "d5880b49-24a0-47ad-9047-ab61f8b322d8",
+        "time": 22.57170068027211,
+        "label": "Beat 65",
+        "lighting": {
+          "color": "#ffdc45",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "Y",
+        "pulseMs": 120
+      },
+      {
+        "id": "918f9e53-86a1-4438-a2cb-607b697f63c8",
+        "time": 23.288072562358277,
+        "label": "Beat 67",
+        "lighting": {
+          "color": "#a6d2ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "C",
+        "pulseMs": 120,
+        "levels": [
+          104,
+          132,
+          160
+        ]
+      },
+      {
+        "id": "3f5deba2-24ec-429f-a535-076bc96deba8",
+        "time": 23.989478458049888,
+        "label": "Beat 69",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "2868d7a7-2b68-4fa4-8ca2-12939e18506c",
+        "time": 24.690884353741495,
+        "label": "Beat 71",
+        "lighting": {
+          "color": "#ff13d9",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          160,
+          12,
+          136
+        ]
+      },
+      {
+        "id": "71795f91-03a0-44c4-ab2a-24730f88927f",
+        "time": 25.39628117913832,
+        "label": "Beat 73",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c10149a7-04d5-40f2-a0a6-c74682dbec33",
+        "time": 26.105668934240363,
+        "label": "Beat 75",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5af48712-cb5c-4209-a34c-ebac5ebea2a8",
+        "time": 26.800090702947845,
+        "label": "Beat 77",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "47cdefbc-ff55-458c-b56d-e4be1284a4d6",
+        "time": 27.501496598639456,
+        "label": "Beat 79",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "35228cf1-6a8a-4c90-814a-35b13c68b7ff",
+        "time": 28.186938775510203,
+        "label": "Beat 81",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3fef3b90-808b-4240-8572-a15c14185eb7",
+        "time": 28.90530612244898,
+        "label": "Beat 83",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f4e85872-41c1-4269-b625-a71f6839eb75",
+        "time": 29.60671201814059,
+        "label": "Beat 85",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "18e9df1b-719d-4592-ba54-bad80fc0913a",
+        "time": 30.30013605442177,
+        "label": "Beat 87",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "cf3e1bc6-2053-4257-bc06-8d478b72b2ef",
+        "time": 31.006530612244898,
+        "label": "Beat 89",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "97cc688c-6835-4ec0-a691-48bf97f9b04f",
+        "time": 31.70793650793651,
+        "label": "Beat 91",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "95e6104a-9f0c-4043-83af-66c6815de021",
+        "time": 32.41034013605442,
+        "label": "Beat 93",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "aced7709-2c73-46d0-9d64-42b2f8cf41b3",
+        "time": 33.11573696145125,
+        "label": "Beat 95",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "7a91d018-f78d-43f0-9832-3a5e0fd7d04d",
+        "time": 33.816145124716556,
+        "label": "Beat 97",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "793419cd-745f-4ba8-a17a-bb83e84341e7",
+        "time": 34.51555555555556,
+        "label": "Beat 99",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6e5660c9-8568-441a-af09-5f27081ea92b",
+        "time": 35.19102040816327,
+        "label": "Beat 101",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "19c30edf-535c-414d-8965-0077c56afda6",
+        "time": 35.91936507936508,
+        "label": "Beat 103",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "17a32e06-2ddf-495c-b645-e79e4b86f8a2",
+        "time": 36.617777777777775,
+        "label": "Beat 105",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0082eff9-f833-4455-806d-b9d6e1cfd6e8",
+        "time": 37.3221768707483,
+        "label": "Beat 107",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "build"
+      },
+      {
+        "id": "73bdd8b7-6e5c-40d2-8339-2b14cd8b3a78",
+        "time": 38.027573696145126,
+        "label": "Beat 109",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "386b6514-79e2-4b5e-9b25-931c02b4b7d5",
+        "time": 38.71691609977324,
+        "label": "Beat 111",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "94fc48f5-b55b-4bef-a334-b644fedc8c88",
+        "time": 39.43437641723356,
+        "label": "Beat 113",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "cbec6768-7cb7-4b9e-a0df-c10a8410b865",
+        "time": 40.12281179138322,
+        "label": "Beat 115",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ecc96dd7-f4fe-4eb9-a69c-32b39943e832",
+        "time": 40.828208616780046,
+        "label": "Beat 117",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "9303bb20-ce1b-4e09-8aef-2258944e270f",
+        "time": 41.52761904761905,
+        "label": "Beat 119",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1ff218cc-3a1f-4ae7-8ab4-f06b0afcdbcc",
+        "time": 42.23401360544218,
+        "label": "Beat 121",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "94ec8dc8-0e4c-4dee-8c7a-392c2775a615",
+        "time": 42.93641723356009,
+        "label": "Beat 123",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1438c8c0-bb50-42d7-b977-8552639342db",
+        "time": 43.64580498866213,
+        "label": "Beat 125",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "942e4cf4-a2f1-4e56-a505-591fdbd039ff",
+        "time": 44.343219954648525,
+        "label": "Beat 127",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "642b6e1c-87f0-4c44-988d-021b530459b3",
+        "time": 45.04163265306122,
+        "label": "Beat 129",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "fd98227a-d341-44cb-94bc-dacf830a4b0d",
+        "time": 45.74403628117914,
+        "label": "Beat 131",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "e81b775c-ec57-49af-8440-d89e78dee01a",
+        "time": 46.44544217687075,
+        "label": "Beat 133",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 2000,
+        "strobe": "build"
+      },
+      {
+        "id": "8b1bba88-34c1-44b4-9636-1f2ab0d25d3b",
+        "time": 49.24907029478458,
+        "label": "Beat 141",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3b104870-d6bf-4057-95e7-22d7e34f44f7",
+        "time": 49.95746031746032,
+        "label": "Beat 143",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 12000,
+        "rainbowMs": 2000
+      },
+      {
+        "id": "46b4fc8b-4788-44e2-a134-a0533df0f794",
+        "time": 58.37532879818594,
+        "label": "Beat 167",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "steady"
+      },
+      {
+        "id": "45c322d0-2d3a-430e-958a-2290d37fad86",
+        "time": 59.04281179138322,
+        "label": "Beat 169",
+        "lighting": {
+          "color": "#ffdc45",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "Y",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "steady"
+      },
+      {
+        "id": "912b518a-89e0-44bc-b70f-8d89cf246d31",
+        "time": 59.77614512471656,
+        "label": "Beat 171",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "steady"
+      },
+      {
+        "id": "36337a61-c9f1-4575-b845-f9336c4e3d44",
+        "time": 60.48453514739229,
+        "label": "Beat 173",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "steady",
+        "levels": [
+          132,
+          64,
+          0
+        ]
+      },
+      {
+        "id": "7e14859f-9abe-4283-85e5-406996f158bb",
+        "time": 61.1859410430839,
+        "label": "Beat 175",
+        "lighting": {
+          "color": "#ff13d9",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "levels": [
+          160,
+          12,
+          136
+        ]
+      },
+      {
+        "id": "16da1828-e507-4414-ac4b-477620612b75",
+        "time": 61.87537414965986,
+        "label": "Beat 177",
+        "lighting": {
+          "color": "#a6d2ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "C",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "levels": [
+          104,
+          132,
+          160
+        ]
+      },
+      {
+        "id": "4736b933-734e-4656-accc-4fcba3fbe124",
+        "time": 62.58975056689342,
+        "label": "Beat 179",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "steady"
+      },
+      {
+        "id": "518a400e-f67c-4aad-a532-e1537b7ec9b8",
+        "time": 63.29015873015873,
+        "label": "Beat 181",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "d8bb5a70-9c44-4cda-9997-878f172ee327",
+        "time": 63.98358276643991,
+        "label": "Beat 183",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3fd0aa5d-7800-400e-9be7-ad311a2fc8b8",
+        "time": 64.69097505668934,
+        "label": "Beat 185",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c0d20099-e474-46d7-9bc7-3d1a85cc828a",
+        "time": 65.39337868480726,
+        "label": "Beat 187",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 3000,
+        "strobe": "steady"
+      },
+      {
+        "id": "e9d21dda-a75a-4a71-9610-1b87c8be1e6e",
+        "time": 68.2,
+        "label": "Beat 195",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3510fe44-59cb-4adf-9bcf-e38a0d108e06",
+        "time": 68.90140589569161,
+        "label": "Beat 197",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "86ec983a-c392-45ef-8e54-39106a05670e",
+        "time": 69.60780045351474,
+        "label": "Beat 199",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "d4f3bdc3-6d5b-4781-b38b-70f50995014b",
+        "time": 70.30820861678005,
+        "label": "Beat 201",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120,
+        "holdMs": 2000,
+        "strobe": "steady"
+      },
+      {
+        "id": "cfdaea3d-2e30-43d7-a35f-da6f230c6741",
+        "time": 72.41342403628119,
+        "label": "Beat 207",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 1000,
+        "strobe": "build"
+      },
+      {
+        "id": "8c3e0f84-22eb-4363-ba8a-adca781c8e85",
+        "time": 73.09986394557824,
+        "label": "Beat 209",
+        "lighting": {
+          "color": "#ffffff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "W",
+        "pulseMs": 120
+      },
+      {
+        "id": "1dd9d17e-c17f-4a54-ab63-751f02aea017",
+        "time": 73.80716553287982,
+        "label": "Beat 211",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "479f5904-806d-450a-a70b-52cd9f7d6357",
+        "time": 74.50267573696145,
+        "label": "Beat 213",
+        "lighting": {
+          "color": "#12b24a",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "G",
+        "pulseMs": 120
+      },
+      {
+        "id": "87411b26-7362-4d65-ad32-9386bab4de12",
+        "time": 75.22104308390023,
+        "label": "Beat 215",
+        "lighting": {
+          "color": "#4275ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120
+      },
+      {
+        "id": "e1bbe1a0-213e-4307-b3f8-c194badc5f27",
+        "time": 75.91845804988662,
+        "label": "Beat 217",
+        "lighting": {
+          "color": "#46e4ef",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "C",
+        "pulseMs": 120
+      },
+      {
+        "id": "357272e4-486c-4c0b-a221-8c93b1716ec5",
+        "time": 76.62086167800453,
+        "label": "Beat 219",
+        "lighting": {
+          "color": "#ffdc45",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "Y",
+        "pulseMs": 120
+      },
+      {
+        "id": "46643155-fd46-471c-b583-3457185171a6",
+        "time": 77.32925170068027,
+        "label": "Beat 221",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "38169a90-ae65-47f1-a6c2-883dca867825",
+        "time": 78.02766439909297,
+        "label": "Beat 223",
+        "lighting": {
+          "color": "#ff6caa",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          180,
+          76,
+          120
+        ]
+      },
+      {
+        "id": "232c4c01-eafa-4ba2-83fa-9930829a689a",
+        "time": 78.71809523809524,
+        "label": "Beat 225",
+        "lighting": {
+          "color": "#ff7c00",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          132,
+          64,
+          0
+        ]
+      },
+      {
+        "id": "26d9dc81-9ede-4620-8882-2df3d757d6c8",
+        "time": 79.42848072562359,
+        "label": "Beat 227",
+        "lighting": {
+          "color": "#6c73ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "B",
+        "pulseMs": 120,
+        "levels": [
+          68,
+          72,
+          160
+        ]
+      },
+      {
+        "id": "0c48d17b-1cf5-4970-a041-c5b1c2badaf3",
+        "time": 80.1049433106576,
+        "label": "Beat 229",
+        "lighting": {
+          "color": "#a6d2ff",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "C",
+        "pulseMs": 120,
+        "levels": [
+          104,
+          132,
+          160
+        ]
+      },
+      {
+        "id": "bcfb58b1-b5f0-43d1-bc22-2463174c47a0",
+        "time": 80.8312925170068,
+        "label": "Beat 231",
+        "lighting": {
+          "color": "#ff13d9",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "levels": [
+          160,
+          12,
+          136
+        ]
+      },
+      {
+        "id": "d16dc36d-f0cf-433f-b46e-3f1ad10a2501",
+        "time": 81.53469387755102,
+        "label": "Beat 233",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 3000,
+        "strobe": "build",
+        "levels": [
+          68,
+          72,
+          160
+        ]
+      },
+      {
+        "id": "d31a14f0-c644-4a39-8872-6204d7f339c0",
+        "time": 84.3273469387755,
+        "label": "Beat 241",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120,
+        "holdMs": 9000,
+        "rainbowMs": 1000
+      },
+      {
+        "id": "ca831479-6224-4e94-8011-21529e5e2ff4",
+        "time": 92.76816326530613,
+        "label": "Beat 265",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ae78c438-c0b7-49c5-bc34-07f00b0d64fa",
+        "time": 93.4625850340136,
+        "label": "Beat 267",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "bd0d120e-6023-43f1-9bc6-f4eb440f481b",
+        "time": 94.15700680272109,
+        "label": "Beat 269",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "335b5cc5-7c68-43a1-a4af-cc8e16d3e9ef",
+        "time": 94.86938775510204,
+        "label": "Beat 271",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "60828286-40b4-4a37-92ed-3723acb01c4b",
+        "time": 95.55582766439909,
+        "label": "Beat 273",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1d28e0e6-31c7-43ab-ba21-eb91e9c896fd",
+        "time": 96.27319727891157,
+        "label": "Beat 275",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0170a53e-5976-4ac9-be5f-d4a28973106d",
+        "time": 96.96861678004535,
+        "label": "Beat 277",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "fe767c01-ea67-448c-ae19-51a9011a3180",
+        "time": 97.67401360544218,
+        "label": "Beat 279",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1aeb29d4-a080-42c9-bcc3-9e0f341d23db",
+        "time": 98.37442176870748,
+        "label": "Beat 281",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a06c862a-fa53-4380-8912-f0aeb7008c90",
+        "time": 99.0768253968254,
+        "label": "Beat 283",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "836e9d07-10e3-448d-862e-f22389c8ff68",
+        "time": 99.7792290249433,
+        "label": "Beat 285",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a2f84201-ed12-416f-a927-4f86005a9717",
+        "time": 100.48362811791384,
+        "label": "Beat 287",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0dea17ac-d348-4cd6-88e6-69ef1552cff9",
+        "time": 101.18503401360545,
+        "label": "Beat 289",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0f5f0aff-003b-4b8b-8e7d-04ed3d3a0347",
+        "time": 101.8714739229025,
+        "label": "Beat 291",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5b22cc52-2c0b-4876-bf2c-0ee278b79ef0",
+        "time": 102.58585034013605,
+        "label": "Beat 293",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f6c94be5-bdca-46e2-8506-717c886f2b6a",
+        "time": 103.28725623582767,
+        "label": "Beat 295",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "8198e2a7-3a1d-4df1-999a-1fe5ca6b913f",
+        "time": 103.98666666666666,
+        "label": "Beat 297",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a4919aee-d9e7-4cf5-915f-eae35cd1cad1",
+        "time": 104.69106575963718,
+        "label": "Beat 299",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3780ed04-6b02-4b81-94c8-f346eab521f7",
+        "time": 105.39546485260772,
+        "label": "Beat 301",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "4d58775d-cdc4-46bd-85d5-187cc43fc923",
+        "time": 106.09687074829932,
+        "label": "Beat 303",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "978f1274-b817-4430-987f-68e5adbfd466",
+        "time": 106.78331065759637,
+        "label": "Beat 305",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "39e176f7-a7c3-4109-b39e-a5f8e4acc39f",
+        "time": 107.45777777777778,
+        "label": "Beat 307",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f0f575c3-f725-49f5-bf23-7f782568cff0",
+        "time": 108.20308390022676,
+        "label": "Beat 309",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "62e3675c-e5d5-4b50-ab19-18af04abb1a0",
+        "time": 108.90249433106575,
+        "label": "Beat 311",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "7e493366-9e30-4a95-ae99-ed36e956de10",
+        "time": 109.60290249433106,
+        "label": "Beat 313",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6c805c78-cbf0-45f2-9a54-7850f92d3eb8",
+        "time": 110.30530612244898,
+        "label": "Beat 315",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "63acc377-335a-4cb7-a326-eeef4dc89411",
+        "time": 111.00671201814059,
+        "label": "Beat 317",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f2d892b1-44e5-4a3c-85b5-3e296b1d9fa3",
+        "time": 111.71210884353742,
+        "label": "Beat 319",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "af618942-0c87-4cf0-8590-36db13645163",
+        "time": 112.39555555555556,
+        "label": "Beat 321",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c8c6e9c9-b1ec-48dd-a120-9aff33f56762",
+        "time": 113.11192743764173,
+        "label": "Beat 323",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "8e240a78-87fe-4df4-b0bb-85dd9233b316",
+        "time": 113.81333333333333,
+        "label": "Beat 325",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "efe947c7-863b-4d34-8ac5-d19165a71c20",
+        "time": 114.51473922902494,
+        "label": "Beat 327",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "8eb6e643-c8ca-4cb1-b0f3-96292d2bbf39",
+        "time": 115.22013605442177,
+        "label": "Beat 329",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3a481e64-6df5-4a45-97e5-20ed8c870dc1",
+        "time": 115.91954648526077,
+        "label": "Beat 331",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c4f29add-84bc-4955-b58b-e8ecb160d831",
+        "time": 116.59501133786848,
+        "label": "Beat 333",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "4d834a26-5bd8-4a16-a91f-32b0dcd57312",
+        "time": 117.28643990929706,
+        "label": "Beat 335",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "298e6ff5-5b58-4409-a022-566fd537ea7a",
+        "time": 118.32707482993197,
+        "label": "Beat 337",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a57bcffd-d700-46fe-9d3f-517806f5cbb8",
+        "time": 119.07238095238095,
+        "label": "Beat 339",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "9a4d95d9-63a2-4878-bcaf-132d9a12ea63",
+        "time": 119.77179138321995,
+        "label": "Beat 341",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6ce2e1f8-d78c-43da-895d-0af5e373b693",
+        "time": 120.44925170068028,
+        "label": "Beat 343",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c6329742-6377-4c73-891d-0697a424d7b9",
+        "time": 121.16861678004535,
+        "label": "Beat 345",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6c399f49-1000-40bd-bf4c-09aef52e345d",
+        "time": 121.87301587301587,
+        "label": "Beat 347",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "496fbf50-320c-49de-ae1c-e6068c77b8f3",
+        "time": 122.56843537414966,
+        "label": "Beat 349",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "fcd5f31c-c7df-499c-bc2f-8d2a8aed1605",
+        "time": 123.28281179138322,
+        "label": "Beat 351",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b56994e3-079f-4083-b00b-832b079a5e6c",
+        "time": 123.97922902494331,
+        "label": "Beat 353",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ac3af696-a25a-4167-9906-288b97d2a5cf",
+        "time": 124.67963718820862,
+        "label": "Beat 355",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "d3f42506-cbe8-42fb-92f4-97b7c66fb019",
+        "time": 125.39102040816327,
+        "label": "Beat 357",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5b3a3627-f087-459f-99c6-b81a652204b5",
+        "time": 126.08145124716553,
+        "label": "Beat 359",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3848e5ad-055f-40a0-8115-2519a09f40c1",
+        "time": 126.78884353741496,
+        "label": "Beat 361",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "37207d30-a012-4582-ac1a-fdf3e327cc08",
+        "time": 127.49324263038548,
+        "label": "Beat 363",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "45df5fcb-45d6-42c1-8102-590c150d4c8d",
+        "time": 128.18866213151927,
+        "label": "Beat 365",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "680a4a69-ea65-4e07-92b8-97a9e7f8839c",
+        "time": 128.88507936507938,
+        "label": "Beat 367",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "016d008c-daeb-4d86-89fe-53e7c068bca9",
+        "time": 129.5954648526077,
+        "label": "Beat 369",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f5e9e2cb-6e29-46b9-b9ba-ee7822c129ca",
+        "time": 130.29387755102042,
+        "label": "Beat 371",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b241bdf6-589b-49b9-bc09-87d3b765d9a7",
+        "time": 130.98630385487527,
+        "label": "Beat 373",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ba29ea28-ecb7-4cfd-8f6f-2b2ad9dc3543",
+        "time": 131.70367346938775,
+        "label": "Beat 375",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "8d10152a-7c08-4c27-984e-a5d5c35aaa0f",
+        "time": 132.3881179138322,
+        "label": "Beat 377",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f7306033-11cf-4106-a534-2552be0877bf",
+        "time": 133.10149659863944,
+        "label": "Beat 379",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0bc51bac-3574-4dd8-9fe2-d22d1fd70dcd",
+        "time": 133.8098866213152,
+        "label": "Beat 381",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c7df0021-64b4-4410-b550-c5e486f16222",
+        "time": 134.50231292517006,
+        "label": "Beat 383",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "e6e50fb5-1340-4195-8cbc-0d44fee40182",
+        "time": 135.2067120181406,
+        "label": "Beat 385",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b4b0856c-d465-48a2-afd7-a63cb3587a94",
+        "time": 135.9081179138322,
+        "label": "Beat 387",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5955073f-0ce6-43ce-a542-6d82c7929a4e",
+        "time": 136.6105215419501,
+        "label": "Beat 389",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b2e30419-2bae-422b-a45c-da950408abf2",
+        "time": 137.31791383219954,
+        "label": "Beat 391",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "cec3f3d6-8db8-4f12-8bd5-cb91e841d9f4",
+        "time": 138.01632653061225,
+        "label": "Beat 393",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a9f8e204-dd5b-42eb-a9ee-8d15759e7879",
+        "time": 138.71573696145126,
+        "label": "Beat 395",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "4eee813e-e8b2-425b-9067-8ed0e6bf0984",
+        "time": 139.41614512471656,
+        "label": "Beat 397",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "728138b3-4ae8-4ff9-a2f8-a4b511ba0f7b",
+        "time": 140.11156462585035,
+        "label": "Beat 399",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "89bee9cf-d5e0-420a-98be-32583fbc4c9e",
+        "time": 140.8239455782313,
+        "label": "Beat 401",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "54e8bc96-a85b-4a7b-b290-69a55062835d",
+        "time": 141.5283446712018,
+        "label": "Beat 403",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "7d122454-207e-4037-b781-6bc2024f5e2d",
+        "time": 142.22675736961452,
+        "label": "Beat 405",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ead33b70-6833-431b-8608-978eabcb29bf",
+        "time": 142.90621315192743,
+        "label": "Beat 407",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5734bf56-0ed4-44ad-943e-7d6d42e8d4ba",
+        "time": 143.61959183673468,
+        "label": "Beat 409",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "e294bbf7-7627-4c36-8d29-b6eb1ecaed72",
+        "time": 144.32897959183674,
+        "label": "Beat 411",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "d01a3ce9-cdea-48d4-a342-30242afd0a69",
+        "time": 145.02539682539683,
+        "label": "Beat 413",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "fe365907-2521-40b6-b129-ebe3adbedb68",
+        "time": 145.72780045351473,
+        "label": "Beat 415",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "7644bdd4-4823-4393-a093-2cddd1c30b6f",
+        "time": 146.43519274376416,
+        "label": "Beat 417",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "bd37fe1f-065f-4b73-9bb5-a7112e6d4cdb",
+        "time": 147.13659863945577,
+        "label": "Beat 419",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "93c4be1c-7d32-43d1-8038-77f32a50b409",
+        "time": 147.8380045351474,
+        "label": "Beat 421",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "cec745a2-55c9-4c3b-ad6b-7f0a60d3f4c0",
+        "time": 148.5374149659864,
+        "label": "Beat 423",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "55b27ca4-4931-4c40-9c14-50b40e0fad83",
+        "time": 149.24480725623582,
+        "label": "Beat 425",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "be430a27-72c1-4087-ba78-16d9c5c37c80",
+        "time": 149.94321995464853,
+        "label": "Beat 427",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "06e78ed1-116b-4f77-b376-21c816295550",
+        "time": 150.64462585034013,
+        "label": "Beat 429",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "363a8493-2666-418f-a6fc-8a4939826f60",
+        "time": 151.36,
+        "label": "Beat 431",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "22960146-1db0-4ba6-9aa1-a3b46f065598",
+        "time": 152.0344671201814,
+        "label": "Beat 433",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6c93dc6d-0338-47a4-98ed-e5b19b086839",
+        "time": 152.75083900226758,
+        "label": "Beat 435",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "da149ae2-1590-4cdd-a585-6789168c4d3e",
+        "time": 153.4552380952381,
+        "label": "Beat 437",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "2d3cdad2-2d9c-4097-9a28-d7e35cd5aa53",
+        "time": 154.1326984126984,
+        "label": "Beat 439",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "734d6f65-72e0-4961-980b-91ae2aef354d",
+        "time": 154.84507936507936,
+        "label": "Beat 441",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "052185d7-37c7-4419-8232-575ba5431122",
+        "time": 155.5574603174603,
+        "label": "Beat 443",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "711db161-4f2d-40f9-89ce-3b7208dc9060",
+        "time": 156.26585034013604,
+        "label": "Beat 445",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "7c17e2d2-13a4-40bc-a3cc-5c069b6a0387",
+        "time": 156.96725623582768,
+        "label": "Beat 447",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3fd7565f-870e-4669-af8c-c870227d1223",
+        "time": 157.68861678004535,
+        "label": "Beat 449",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c12e618b-becd-4395-b114-eda107eae488",
+        "time": 158.36507936507937,
+        "label": "Beat 451",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a267ca4f-9da5-4658-b701-266fc53704a4",
+        "time": 159.08244897959185,
+        "label": "Beat 453",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c0b9f2cf-4385-48a9-ba79-b58709264be0",
+        "time": 159.7718820861678,
+        "label": "Beat 455",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "98bffdab-5358-4b64-9334-bfc18ecb30c3",
+        "time": 160.47229024943312,
+        "label": "Beat 457",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6141848e-cd4d-4709-84a2-c277b4a79301",
+        "time": 161.18367346938774,
+        "label": "Beat 459",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ac1f1c3a-e9f1-405b-8308-e931a5ca974e",
+        "time": 161.88607709750568,
+        "label": "Beat 461",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b2910b6f-ead3-400b-ac92-75ca612ed4cf",
+        "time": 162.94367346938776,
+        "label": "Beat 463",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "78a3c789-faa1-4332-8b65-f8c13e6d4326",
+        "time": 163.67102040816326,
+        "label": "Beat 465",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "554da904-c0ef-44b0-aa75-6f4fec5bef2e",
+        "time": 164.3275283446712,
+        "label": "Beat 467",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "bc222de1-5777-49a2-986d-c576ba02b279",
+        "time": 165.0448979591837,
+        "label": "Beat 469",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "2e5dea89-5e5d-4aa4-9518-62b47fca88b5",
+        "time": 165.74331065759637,
+        "label": "Beat 471",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "89b1a058-c4f8-4b56-a445-492e5187619c",
+        "time": 166.44571428571427,
+        "label": "Beat 473",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "48082696-b7c5-4a04-85dc-c281ef61d8d0",
+        "time": 167.121179138322,
+        "label": "Beat 475",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "46f8783f-a02b-406f-8c2d-1545f4f94fdd",
+        "time": 167.8525170068027,
+        "label": "Beat 477",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a4748d5a-3d1d-470b-8dae-b85d0d149281",
+        "time": 168.542947845805,
+        "label": "Beat 479",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "9020dd2e-fc26-4e81-b019-443c3b3785c5",
+        "time": 169.25233560090703,
+        "label": "Beat 481",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "303730ec-3cea-4c4c-bddf-99d879d601f7",
+        "time": 169.92879818594105,
+        "label": "Beat 483",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "9b0fcd14-3249-49dd-8ae7-3a45f39a71c8",
+        "time": 170.65614512471655,
+        "label": "Beat 485",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "061d8a3b-648d-4eef-9bc9-f3313895cf00",
+        "time": 171.36054421768708,
+        "label": "Beat 487",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "6bd55089-19f2-45a9-b474-f91df64ff715",
+        "time": 172.0709297052154,
+        "label": "Beat 489",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a8f1eb06-fbef-4514-8b60-176fd9057ad6",
+        "time": 172.7643537414966,
+        "label": "Beat 491",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1dabd902-3d40-4190-886c-de2296474676",
+        "time": 173.4657596371882,
+        "label": "Beat 493",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "fe382335-357b-4139-a83c-965a63ebbd63",
+        "time": 174.15219954648526,
+        "label": "Beat 495",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0557d141-e2d9-4599-a91f-c8a8b61607d9",
+        "time": 174.8825396825397,
+        "label": "Beat 497",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "d9bc4e09-ddab-4e43-a92e-bb5f87aae6fb",
+        "time": 175.57097505668935,
+        "label": "Beat 499",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "113e1123-eae1-43c0-8bc0-a8ddfb93254c",
+        "time": 176.26439909297054,
+        "label": "Beat 501",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "60cf7841-5ef2-4459-be58-ae88cca46abc",
+        "time": 176.97179138321997,
+        "label": "Beat 503",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "3603baaf-d717-4d92-a612-6d84e1ce963d",
+        "time": 177.66820861678005,
+        "label": "Beat 505",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1c4ff862-fc75-47e9-a522-8d3c2afd950a",
+        "time": 178.33768707482994,
+        "label": "Beat 507",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "0f608b37-fd9e-4cd3-b73c-a00f75a483e1",
+        "time": 179.0750113378685,
+        "label": "Beat 509",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "263f195a-4044-4385-b3ca-aa0840d674c8",
+        "time": 179.76444444444445,
+        "label": "Beat 511",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a77eee6c-620b-46fc-b2ea-faa0a721cbb9",
+        "time": 180.4808163265306,
+        "label": "Beat 513",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b4c7e964-ba62-4644-b21e-675e641efd8c",
+        "time": 181.1822222222222,
+        "label": "Beat 515",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a08026de-ab52-4abe-9e73-9be05e94c879",
+        "time": 181.88462585034014,
+        "label": "Beat 517",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f9e760a5-1dda-4389-85e9-68494dc1edfc",
+        "time": 182.58902494331065,
+        "label": "Beat 519",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "ac86bcd8-302e-4350-be16-36d0121506e0",
+        "time": 183.2984126984127,
+        "label": "Beat 521",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "11cf1699-812f-4f12-a9da-8ea09b1d7b64",
+        "time": 183.9928344671202,
+        "label": "Beat 523",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "1ef17139-8b5a-4764-b7c9-ef6735b58175",
+        "time": 184.6942403628118,
+        "label": "Beat 525",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "e4880330-6d59-4527-baa8-2f96dcbb581b",
+        "time": 185.3427664399093,
+        "label": "Beat 527",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "16de2dbf-0346-4601-8598-e44145ac2a63",
+        "time": 186.07510204081632,
+        "label": "Beat 529",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "eccfaf78-9ac1-4a77-a3e9-bca140f0612d",
+        "time": 186.7695238095238,
+        "label": "Beat 531",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "c6b5319e-62dc-432c-acb0-7cc0e05be629",
+        "time": 187.42702947845805,
+        "label": "Beat 533",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "60310d61-660e-40cb-9598-cd93ef2720e2",
+        "time": 188.1873015873016,
+        "label": "Beat 535",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "f087c99c-20c2-4ddc-97a7-1c636b35aba5",
+        "time": 188.9196371882086,
+        "label": "Beat 537",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b4494e00-2b29-4a8f-b2bd-050445c81583",
+        "time": 189.5921088435374,
+        "label": "Beat 539",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "5e80fec7-26f0-4eb0-a4f5-199c1f60a633",
+        "time": 190.32544217687075,
+        "label": "Beat 541",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "8cb58ac0-0e5a-49a9-88fc-dc8954fd18c4",
+        "time": 190.97895691609978,
+        "label": "Beat 543",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "a3698a5e-5c7f-4e32-ae78-b8eca7ba696b",
+        "time": 191.67437641723356,
+        "label": "Beat 545",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "77f17ed7-842b-4e93-a1b5-7501fcc7a864",
+        "time": 192.39873015873016,
+        "label": "Beat 547",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "833da376-5fa6-4df2-889c-ba6847bb4969",
+        "time": 193.03927437641724,
+        "label": "Beat 549",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "2ba67352-d560-43c5-9048-d58976dbf479",
+        "time": 193.8065306122449,
+        "label": "Beat 551",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "4a8c855c-c532-4771-af77-ab04e18b973d",
+        "time": 194.4530612244898,
+        "label": "Beat 553",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "e10d423b-2a22-40c4-982c-59fbbb08f7a3",
+        "time": 195.16444444444446,
+        "label": "Beat 555",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "318c9b6f-9d4c-4ea7-84ff-a4613ff4cdd8",
+        "time": 195.86285714285714,
+        "label": "Beat 557",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "2157fce7-2cc1-4612-9f41-6fd96b986247",
+        "time": 196.51437641723356,
+        "label": "Beat 559",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b379ca1f-c975-4e3c-85b5-4454434560c3",
+        "time": 197.25469387755103,
+        "label": "Beat 561",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      },
+      {
+        "id": "b04b0b6d-1b02-4090-b0ac-7045d1fe6356",
+        "time": 197.88426303854877,
+        "label": "Beat 563",
+        "lighting": {
+          "color": "#ff323e",
+          "effect": "Flash",
+          "brightness": 100,
+          "speed": 50,
+          "profile": "The Weeknd",
+          "musicSync": false
+        },
+        "hardwareColor": "R",
+        "pulseMs": 120
+      }
+    ]
+  }
+}

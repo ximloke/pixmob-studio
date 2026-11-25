@@ -52,7 +52,7 @@ import {
   MAX_SONG_TIME,
   newSongId,
   SONG_LEAD_STORAGE_KEY,
-  readSongShows,
+  mainSongProfile,
   saveSongShows,
   SongCueOutput,
   SongCueTimeline,
@@ -62,6 +62,7 @@ import {
   sampleSongCue,
 } from "./lib/songShow";
 import type { SongCue, SongHardwareColor, SongShow } from "./lib/songShow";
+import { readSongShowsWithBuiltIns } from "./lib/builtInShows";
 import {
   applyShowLightTiming,
   applyShowPulsePattern,
@@ -255,9 +256,14 @@ const errorText = (error: unknown) =>
 export default function SongShows(props: SongShowsProps) {
   const callbacks = useRef(props);
   callbacks.current = props;
-  const [saved, setSaved] = useState(() => {
+  const [saved, setSaved] = useState<{
+    shows: SongShow[];
+    error?: string;
+    added?: SongShow[];
+  }>(() => {
     try {
-      return readSongShows(localStorage);
+      // The site's built-in shows join the saved shows once per browser.
+      return readSongShowsWithBuiltIns(localStorage);
     } catch {
       return {
         shows: [] as SongShow[],
@@ -270,7 +276,12 @@ export default function SongShows(props: SongShowsProps) {
     () => saved.shows[0] ?? createSongShow(),
   );
   const [dirty, setDirty] = useState(false);
-  const [message, setMessage] = useState(saved.error ?? "");
+  const [message, setMessage] = useState(
+    saved.error ??
+      (saved.added?.length
+        ? `Added ${saved.added.map((item) => `"${item.name}"`).join(", ")} to the saved shows on this browser. Choose its audio file to play it.`
+        : ""),
+  );
   const [source, setSource] = useState<"local" | "external">("local");
   const [audioUrl, setAudioUrl] = useState("");
   const [fileName, setFileName] = useState("");
@@ -318,8 +329,10 @@ export default function SongShows(props: SongShowsProps) {
   const [analysisOpen, setAnalysisOpen] = useState(
     () => !(saved.shows[0]?.cues.length ?? 0),
   );
-  const [draftProfile, setDraftProfile] =
-    useState<Lighting["profile"]>("Taylor Swift");
+  // New cues get the wristband profile most of the open show's cues use.
+  const [draftProfile, setDraftProfile] = useState<Lighting["profile"]>(
+    () => mainSongProfile(show) ?? "Taylor Swift",
+  );
   const [duration, setDuration] = useState(0);
   const [position, setPosition] = useState(0);
   const [playing, setPlaying] = useState(false);
@@ -997,6 +1010,7 @@ export default function SongShows(props: SongShowsProps) {
       stopPlayback();
       setSaved({ shows });
       setShow(structuredClone(loaded));
+      setDraftProfile((current) => mainSongProfile(loaded) ?? current);
       setDirty(false);
       seek(0, true);
       setMessage(
@@ -1209,6 +1223,9 @@ export default function SongShows(props: SongShowsProps) {
               if (chosen) {
                 stopPlayback();
                 setShow(structuredClone(chosen));
+                setDraftProfile(
+                  (current) => mainSongProfile(chosen) ?? current,
+                );
                 setDirty(false);
                 seek(0, true);
               }
