@@ -42,6 +42,7 @@
 - **GitHub 仓库与 Pages（2026-11-25，用户选“公开+Pages”）**：
   - 公开仓库 [ximloke/pixmob-studio](https://github.com/ximloke/pixmob-studio)，分支 `main`，第一次提交 `658dc20`。
   - 本仓库的提交作者设为 GitHub 用户名和 noreply 邮箱，只写在本仓库的 git 配置里，不暴露 Gmail 和真名。
+  - 11-25 按用户要求加了 MIT 许可证（`LICENSE`），版权人写的是 GitHub 用户名 ximloke。`THIRD_PARTY_NOTICES.md` 列出借用的公开资料和各自的许可：danielweidman（MIT）、jamesw343（MIT）、sueppchen 的 pixmob_cement（BSD 声明）。
   - `.github/workflows/pages.yml`：每次 push 到 main 都自动构建（base `/pixmob-studio/`），并发布到 **https://ximloke.github.io/pixmob-studio/**。
   - 11-25 首次部署通过，页面无报错，内容含 11-23 加的 Song shows Cue pads。
   - Cloudflare 那份还是 11-21 的版本，没有 Cue pads；要一致，需再用 wrangler 发布。

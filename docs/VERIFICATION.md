@@ -1201,3 +1201,15 @@ Lights 3–7 are the same within one frame. Light 8 is cut off by the end of the
 - Live after the push: Pages run 45568496015 passed, and https://ximloke.github.io/pixmob-studio/ serves the new script. With empty storage it showed the same results, again with no console errors.
 - The board was not connected, and the show was not played with audio.
 - The Cloudflare copy was not updated (the user said earlier "不用").
+
+## 2026-11-25 — MIT license added
+
+**Request:** "加 MIT 许可证".
+
+**Added:**
+- `LICENSE`: the standard MIT text. The copyright holder is the GitHub user name `ximloke`, matching the commit author, so the real name stays out of the public repository.
+- `THIRD_PARTY_NOTICES.md` lists the published work the code builds on, with each copyright line and licence. The licences were read from each repository through the GitHub API.
+  - danielweidman/pixmob-ir-reverse-engineering: MIT, Copyright (c) 2022 Dani Weidman. Used for the IR effect definitions in the tests, and for the 915 MHz RF captures.
+  - jamesw343/PixMob_IR: MIT, Copyright (c) 2024-2025 James Wang. Used for the IR frame format in `PixMobFrame.h`.
+  - sueppchen/PixMob_waveband's `pixmob_cement` library: its BSD notice, Copyright (c) 2024 Sueppchen & Serge-45, is kept in both `PixMobRFFrame.h` files and repeated in the notices file. GitHub lists that repository itself as MIT.
+- `package.json` now has `"license": "MIT"`, and the README has a License section.

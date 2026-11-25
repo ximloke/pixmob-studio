@@ -170,3 +170,7 @@ firmware/README.md        Build and upload instructions
 ## Verification
 
 `npm run build` performs strict TypeScript checking and produces the static bundle. `npm test` exercises bounded effects, color conversion and scene validation, BPM/onset/drop behavior, waveform limits, HTTP failures/disconnect, serial framing, and audio capture cancellation. Browser checks cover console rendering, basic controls, scenes, DJ input selection and responsive layouts. The physical hardware checklist is in `docs/TESTING.md`; software checks are not evidence of wristband compatibility.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Parts follow published PixMob reverse-engineering work, which keeps its own licence (MIT or BSD); see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
