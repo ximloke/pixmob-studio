@@ -46,6 +46,16 @@
   - 11-25 首次部署通过，页面无报错，内容含 11-23 加的 Song shows Cue pads。
   - Cloudflare 那份还是 11-21 的版本，没有 Cue pads；要一致，需再用 wrangler 发布。
   - 两个地址的浏览器存储互不相通。
+- **内置节目（2026-11-25，用户要求“把blinding light 放进我的网站，wristband profile the weeknd”）**：
+  - 用户的 “blinding light (half version)” 已内置到网站：数据在 `src/shows/blinding-light-half-version.pixmob-show.json`，逻辑在 `src/lib/builtInShows.ts`。
+  - 每个浏览器第一次打开 Song shows 时，节目自动加进已存节目，只加一次。
+    - 用户删掉后不会再加回（记在 `pixmob-song-shows-built-in-v1`）。
+    - 已存的同 id 副本保持原样。
+    - 已存节目满 16 个时先不加，有空位再加。
+  - 237 个 cue 全用 The Weeknd 手环样式（原文件有 2 个是 Taylor Swift）。
+  - 新 cue 的 Preview profile 跟随打开的节目。
+  - 已推送到 GitHub Pages，在内置浏览器看过：节目出现，无报错。
+  - 音频不在里面，播放时要自己选歌曲文件。Cloudflare 那份没更新（用户说不用）。
 
 ## 必须保留的边界
 
@@ -63,4 +73,4 @@
   - 只在用户要求时提交和推送。
 - 网页和上传工具不能同时占用串口；需要硬件操作时先确认现场状态并保留恢复点。
 
-2026-11-25：**187 项测试通过**（含 IR/RF 输出选择、彩虹 RF 保持、RF 睡眠设置，以及 11-23 新增的 Song shows Cue pads 测试），`npm run build` 通过。完整操作记录和构建哈希见交接资料与验证记录。
+2026-11-25：**194 项测试通过**（含 IR/RF 输出选择、彩虹 RF 保持、RF 睡眠设置、11-23 新增的 Song shows Cue pads 和内置节目的测试），`npm run build` 通过（JS 超过 500 kB 的提示来自内置节目数据，只是警告）。完整操作记录和构建哈希见交接资料与验证记录。

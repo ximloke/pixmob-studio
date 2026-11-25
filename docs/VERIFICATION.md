@@ -1174,3 +1174,30 @@ Lights 3–7 are the same within one frame. Light 8 is cut off by the end of the
 - The Cloudflare copy is still the 21 November build, without Cue pads.
 - Each address keeps its own browser storage.
 - Every push to `main` redeploys the GitHub Pages site. These notes and the README went out as a second commit.
+
+## 2026-11-25 — Blinding Lights built into the website (The Weeknd profile)
+
+**Request:** the user attached `blinding light (half version).pixmob-show.json` (from Downloads, exported 14 November) and asked "把blinding light 放进我的网站，wristband profile the weeknd".
+
+**The file:**
+- It is a valid show file for the app's own importer: 237 cues from 0.1 s to 197.88 s.
+- 235 cues used The Weeknd profile. Two, both labelled "Cue 270" at 2.87 s and 11.95 s with brightness 80, used Taylor Swift.
+- The Song shows "Preview profile" (the profile new cues get) defaulted to Taylor Swift, which is probably how those two cues came about.
+
+**Change** (commit `bc70903`):
+- `src/shows/blinding-light-half-version.pixmob-show.json`: the show written by the app's own exporter, with every cue's profile set to The Weeknd. Nothing else in the show was changed; it keeps its id.
+- `src/lib/builtInShows.ts`: built-in shows join a browser's saved shows once, when Song shows first opens.
+  - The ids already given are kept in `pixmob-song-shows-built-in-v1`, so a show the user deletes stays deleted.
+  - A saved show with the same id is left as it is.
+  - Nothing is added while 16 shows are saved.
+  - Saved shows that cannot be read are never written over.
+  - A notice says the show was added and that its audio file must be chosen.
+- `src/lib/songShow.ts`: `MAX_SONG_SHOWS` exported; new `mainSongProfile`, the profile most of a show's cues use.
+- `src/SongShows.tsx`: the Preview profile now follows the opened show (at start, on choosing a saved show, on import).
+- `tests/builtInShows.test.ts`: 7 tests. `npm test`: 194 pass, 0 fail. `npm run build` passed, with Vite's chunk-size warning (over 500 kB minified), which comes from the added show data.
+
+**Checked:**
+- Local `npm run dev` in the in-app browser, starting from empty storage. Song shows opened on "blinding light (half version)": 237 cues, all The Weeknd. The Preview profile read The Weeknd, the notice showed, and the console had no errors.
+- Live after the push: Pages run 45568496015 passed, and https://ximloke.github.io/pixmob-studio/ serves the new script. With empty storage it showed the same results, again with no console errors.
+- The board was not connected, and the show was not played with audio.
+- The Cloudflare copy was not updated (the user said earlier "不用").
