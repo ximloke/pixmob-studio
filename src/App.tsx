@@ -2192,6 +2192,15 @@ export default function App() {
               Designed for the moments you feel.
             </span>
             <span>
+              <a
+                href="https://github.com/ximloke/pixmob-studio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                MIT License · 源码在 GitHub
+              </a>
+            </span>
+            <span>
               LOCAL FIRST <i /> BUILT FOR LIGHT
             </span>
           </footer>
